@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Registro</title>
+
+  <!-- Usa el mismo CSS que el login -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <form id="registerForm">
+    <h1>Crear cuenta</h1>
+
+    <input
+      type="text"
+      name="username"
+      placeholder="Usuario"
+      autocomplete="username"
+      required
+    />
+
+    <input
+      type="password"
+      name="password"
+      placeholder="Contraseña"
+      autocomplete="new-password"
+      required
+    />
+
+    <button>Registrarse</button>
+
+    <a href="index.html">¿Ya tienes cuenta? Inicia sesión</a>
+  </form>
+
+  <!-- Reutilizamos el mismo JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
